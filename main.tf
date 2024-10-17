@@ -1,8 +1,7 @@
 
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIA6GBMAR2PBNGK5BFA"
-  secret_key = "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"
+  shared_credentials_files = "C:\Users\Ajit Pal\.aws\credentials"
 }
 
 resource "aws_instance" "web" {
